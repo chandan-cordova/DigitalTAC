@@ -9,13 +9,15 @@
  * http://www.codrops.com
  */
 var Boxlayout = (function() {
-
-	var $el = $( '#bl-main' ),
+		/*
+		var $el = $( '#bl-main' ),
 		$sections = $el.children( 'section' ),
 		// works section
 		$sectionWork = $( '#bl-work-section' ),
+		
+		*/
 		// work items
-		$workItems = $( '#bl-work-items > li' ),
+		var $workItems = $( '.layer.two #bl-work-items > li' ),
 		// work panels
 		$workPanelsContainer = $( '#bl-panel-work-items' ),
 		$workPanels = $workPanelsContainer.children( 'div' ),
@@ -43,7 +45,7 @@ var Boxlayout = (function() {
 	}
 
 	function initEvents() {
-		
+		/*
 		$sections.each( function() {
 			
 			var $section = $( this );
@@ -75,12 +77,13 @@ var Boxlayout = (function() {
 			} );
 
 		} );
+		*/
 
 		// clicking on a work item: the current section scales down and the respective work panel slides up
 		$workItems.on( 'click', function( event ) {
 
 			// scale down main section
-			$sectionWork.addClass( 'bl-scale-down' );
+			//$sectionWork.addClass( 'bl-scale-down' );
 
 			// show panel for this work item
 			$workPanelsContainer.addClass( 'bl-panel-items-show' );
@@ -126,7 +129,7 @@ var Boxlayout = (function() {
 		$closeWorkItem.on( 'click', function( event ) {
 
 			// scale up main section
-			$sectionWork.removeClass( 'bl-scale-down' );
+			//$sectionWork.removeClass( 'bl-scale-down' );
 			$workPanelsContainer.removeClass( 'bl-panel-items-show' );
 			$workPanels.eq( currentWorkPanel ).removeClass( 'bl-show-work' );
 			
