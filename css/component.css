@@ -172,8 +172,9 @@ a:hover {
 
 .bl-content, 
 div.bl-panel-items > div > div {
-	opacity: 0;
+	/*opacity: 0;
 	pointer-events: none;
+	*/
 	position: absolute;
 	top: 30px;
 	left: 30px;
@@ -200,14 +201,14 @@ div.bl-panel-items > div[data-panel="panel-1"] {
 }
 
 .bl-content h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 300;
     margin: 0;
 }
 .bl-content h3 {
     font-size: 1.5em;
     font-weight: 300;
-    margin: 8px 0 10px 0;
+    margin: 2px 0 8px 0;
 }
 
 .bl-content article {
