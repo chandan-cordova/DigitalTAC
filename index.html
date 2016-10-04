@@ -146,7 +146,7 @@
 					<li>Author: Chandan Bora/India/IBM</li>
 					<li>Published Date: 30-Sept-2016</li></ul>
 					<a href="components/video/index.html" data-featherlight="iframe" data-featherlight-iframe-width=655 data-featherlight-iframe-height=422>See Video in action</a>
-					<br><a href="https://github.com/chandan-cordova/DigitalTAC/trunk/components/video" download="video.zip">Download</a>
+					<br><a href="#" onclick='GitZip.zipRepo("https://github.com/chandan-cordova/DigitalTAC/tree/master/components/video");'>Download</a>
 				</div>
 			</div>
 			<nav>
@@ -159,6 +159,10 @@
 
 		<script src="js/boxlayout.js"></script>
 		<script src="js/featherlight/featherlight.min.js"></script>
+		
+		<script type="text/javascript" src="js/gitzip/FileSaver.min.js"></script>
+		<script type="text/javascript" src="js/gitzip/jszip.min.js"></script>
+		<script type="text/javascript" src="js/gitzip/API.js"></script>
 		<script>
 			// Create a new instance of kontext
 			var k = kontext( document.querySelector( '.kontext' ) );
