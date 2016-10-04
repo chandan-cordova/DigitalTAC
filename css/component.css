@@ -285,6 +285,7 @@ div.bl-panel-items > div > div h3 {
 
 div.bl-panel-items > div > div p {
     font-size: 14.4px;
+    margin-bottom: 0;
 }
 
 div.bl-panel-items > div > div img {
