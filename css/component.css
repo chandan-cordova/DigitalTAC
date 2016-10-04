@@ -358,6 +358,9 @@ div.bl-panel-items > div.bl-show-work {
 
 .bl-show-work ul {
     list-style: none;
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
 }
 
 div.bl-panel-items > div.bl-hide-current-work {
@@ -390,7 +393,8 @@ div.bl-panel-items > div.bl-hide-current-work {
 
 a.download-code {
     font-size: 14.4px;
-    font-weight: normal;
+    font-weight: 300;
+    letter-spacing: normal;
 }
 
 .bl-main > section.bl-expand-top {
