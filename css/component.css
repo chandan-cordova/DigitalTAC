@@ -388,6 +388,11 @@ div.bl-panel-items > div.bl-hide-current-work {
 	left: 0;
 }
 
+a.download-code {
+    font-size: 14.4px;
+    font-weight: normal;
+}
+
 .bl-main > section.bl-expand-top {
 	z-index: 100;
 }
